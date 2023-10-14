@@ -384,9 +384,8 @@ if (width_of_the_screen <= 768) {
 
     for (let index = 0; index < plmw.length; index++) {
         plmw[index].style.width = width_of_the_screen * 150 * 2.5 / 1536 + "px";
-        plmw[index].style.height = width_of_the_screen * 250 * 2.5 / 1536 + "px";
+        plmw[index].style.height = width_of_the_screen * 250 * 3 / 1536 + "px";
         plmw[index].style.padding = width_of_the_screen * 25 * 2.5 / 1536 + "px";
-        plmw[index].style.paddingBottom = width_of_the_screen * 600 / 1536 + "px";
     }
 
     var ogcf = document.getElementsByClassName("ogc");
