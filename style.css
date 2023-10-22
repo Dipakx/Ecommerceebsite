@@ -215,11 +215,42 @@ body {
     border-radius: 10px;
 }
 
-.proce{
-    display: flex; 
+.proce {
+    display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
 /*style for Product section*/
+
+/*style for c2a section*/
+
+.c2a5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.efbohxser{
+    border-radius: 50px;
+    border-color: yellow;
+    background-color: yellow;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.efbohxser:hover{
+    background-color: green;
+    border-color: green;
+    transition: 1s ease;
+    
+}
+
+.c2a5 span{
+    color: red;
+}
+
+/*style for c2a section*/
