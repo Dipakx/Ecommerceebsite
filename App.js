@@ -200,6 +200,22 @@ document.getElementById("efgt").style.display = "none";
 
 /* code for product section */
 
+/* code for c2a section */
+
+
+document.getElementsByClassName("c2a")[0].style.width = width_of_the_screen * 1536 / 1536 + "px";
+document.getElementsByClassName("c2a")[0].style.height = width_of_the_screen * 300 / 1536 + "px";
+document.getElementsByClassName("c2a")[0].style.marginBottom = width_of_the_screen * 50 / 1536 + "px";
+document.getElementsByClassName("c2a5")[0].style.marginTop = width_of_the_screen * -300 / 1536 + "px";
+document.getElementsByClassName("c2a5")[0].style.marginLeft = width_of_the_screen * -700 / 1536 + "px";
+document.getElementsByClassName("c2a5")[0].style.fontSize = width_of_the_screen * 40 / 1536 + "px";
+document.getElementsByClassName("efbohxser")[0].style.fontSize = width_of_the_screen * 25 / 1536 + "px";
+document.getElementsByClassName("efbohxser")[0].style.padding = width_of_the_screen * 20 / 1536 + "px";
+
+
+
+/* code for c2a section */
+
 
 
 
@@ -444,5 +460,21 @@ if (width_of_the_screen <= 768) {
     });
 
     /* code for Product section in small device */
+
+    /* code for c2a section in small section */
+
+
+    document.getElementsByClassName("c2a")[0].style.width = width_of_the_screen * 1536 / 1536 + "px";
+    document.getElementsByClassName("c2a")[0].style.height = width_of_the_screen * 300 * 2.3 / 1536 + "px";
+    document.getElementsByClassName("c2a")[0].style.marginBottom = width_of_the_screen * 50 * 2.3 / 1536 + "px";
+    document.getElementsByClassName("c2a5")[0].style.marginTop = width_of_the_screen * -300 * 2 / 1536 + "px";
+    document.getElementsByClassName("c2a5")[0].style.marginLeft = width_of_the_screen * -600 / 1536 + "px";
+    document.getElementsByClassName("c2a5")[0].style.fontSize = width_of_the_screen * 40 * 1.6 / 1536 + "px";
+    document.getElementsByClassName("efbohxser")[0].style.fontSize = width_of_the_screen * 25 / 1536 + "px";
+    document.getElementsByClassName("efbohxser")[0].style.padding = width_of_the_screen * 20 / 1536 + "px";
+
+
+
+    /* code for c2a section in small section */
 
 } 
